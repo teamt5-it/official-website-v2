@@ -1,0 +1,19 @@
+#!/bin/bash
+
+export DIR=$( cd "$( dirname "$0" )" && pwd )
+export PATH=$DIR/sbin:$PATH
+export TARGET=${DIR}/config
+export REDIRECT_LIST=$(cat "${DIR}/redirect-list.json")
+
+cd "${TARGET}"
+erb "./allowed.conf.erb" > "./allowed.conf"
+erb "./locations.conf.erb" > "./locations.conf"
+erb "./redirect.conf.erb" > "./redirect.conf"
+cd sites
+for site in ./*.conf.erb
+do
+	erb "$site" > "${site%.*}"
+done
+
+cd "${DIR}"
+exec $*

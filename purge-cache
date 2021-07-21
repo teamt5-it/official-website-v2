@@ -1,0 +1,6 @@
+#!/bin/bash
+
+curl "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" \
+	-H "Content-Type: application/json" \
+	-H "Authorization: Bearer ${CF_TOKEN}" \
+	--data '{"purge_everything":true}'

@@ -1,0 +1,38 @@
+[
+  {
+    "legacy": "/newsroom/blog/2020/03/18/teamt5-information-operation-white-paper-observations-on-2020-taiwanese-general-elections.html",
+    "target": "/en/posts/teamt5-information-operation-white-paper-observations-on-2020-taiwanese-general-elections"
+  },
+  {
+    "legacy": "/newsroom/blog/2020/03/18/teamt5-杜浦數位安全-發布了-資訊戰白皮書-2020台灣大選觀察.html",
+    "target": "/tw/posts/teamt5-information-operation-white-paper-observations-on-2020-taiwanese-general-elections"
+  },
+  {
+    "legacy": "/newsroom/blog/2020/04/15/中國駭客huapi的unix惡意後門程式bifrost分析-1.html",
+    "target": "/tw/posts/technical-analysis-on-backdoor-bifrost-of-the-Chinese-apt-group-huapi"
+  },
+  {
+    "legacy": "/newsroom/blog/2020/04/21/teamt5-special-report-how-china-utilizes-its-cyber-strength-and-propaganda-machine-to-handle-the-covid-19-pandemic.html",
+    "target": "/en/posts/teamt5-special-report-how-china-utilizes-its-cyber-strength-and-propaganda-machine-to-handle-the-covid-19-pandemic"
+  },
+  {
+    "legacy": "/newsroom/2020/05/05/teamt5聯手macnica-networks與terilogy-technology-幫助-關鍵基礎設施-對抗apt攻擊.html",
+    "target": "/tw/posts/teamt5-collaborates-with-macnica-networks-and-terilogy-technology-to-help-critical-infrastructure-combat-apt-attacks"
+  },
+  {
+    "legacy": "/newsroom/2020/05/07/teamt5-s-threatvision-cyber-threat-intelligence-platform-joins-the-polyswarm-malware-analysis-marketplace.html",
+    "target": "/en/posts/teamt5-s-threatvision-cyber-threat-intelligence-platform-joins-polyswarm-malware-analysis-marketplace"
+  },
+  {
+    "legacy": "/newsroom/2020/05/11/teamt5執行長蔡松廷參加-secpaas資安小聚-直播-分享後covid-19時代的企業資安防禦小撇步.html",
+    "target": "/tw/posts/secpaas-live-teamt5-ceo-sungting-tsai-shares-cybersecurity-tips-for-businesses-in-the-post-covid-19-era"
+  },
+  {
+    "legacy": "/newsroom/2020/05/27/teamt5-and-macnica-networks-release-joint-project-on-2019-s-apt-attacks-in-japan.html",
+    "target": "/en/posts/teamt5-and-macnica-networks-release-joint-project-on-2019-s-apt-attacks-in-japan"
+  },
+  {
+    "legacy": "/newsroom/blog/2020/06/10/blackhat-s-talk-breaking-samsung-s-root-of-trust-exploiting-samsung-secure-boot.html",
+    "target": "/en/posts/blackhat-s-talk-breaking-samsung-s-root-of-trust-exploiting-samsung-secure-boot"
+  }
+]

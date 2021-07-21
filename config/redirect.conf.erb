@@ -1,0 +1,9 @@
+<%
+require 'json'
+redirect_list = JSON.parse(ENV['REDIRECT_LIST'] || "[]")
+redirect_list.each do | rl |
+    legacy = rl["legacy"]
+    target = rl["target"]
+%>
+    rewrite ^<%=legacy%>$ https://$host<%=target%> permanent;
+<% end %>
